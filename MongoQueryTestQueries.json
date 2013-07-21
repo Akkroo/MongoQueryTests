@@ -308,8 +308,8 @@
         "options": [
 
         ],
-        "result": true,
-        "description": "in true (doc array)"
+        "result": false,
+        "description": "in false (doc array)"
     },
 	
     {
@@ -698,7 +698,7 @@
 			"project":"PHPMongoQuery",
 			"license":"MIT",
 			"company":"Akkroo",
-			"version":"1.0"
+			"version":"1.0",
 			"authors":[
 				{
 					"name":"Nick Brook",
