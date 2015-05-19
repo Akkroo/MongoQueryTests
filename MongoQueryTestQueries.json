@@ -502,6 +502,36 @@
     },
     {
         "query": {
+            "1": {
+                "$ne": null
+            }
+        },
+        "document": {
+            "1": "Content"
+        },
+        "options": [
+
+        ],
+        "result": true,
+        "description": "ne true with a numerical document key"
+    },
+    {
+        "query": {
+            "1": {
+                "$ne": "testval"
+            }
+        },
+        "document": {
+            "1": "testval"
+        },
+        "options": [
+
+        ],
+        "result": false,
+        "description": "ne false with a numerical document key"
+    },
+    {
+        "query": {
             "test": {
                 "$nin": [
                     1,
